@@ -72,7 +72,6 @@ p {
 	background-position: left;
 	border: none;
 	margin-top: 40px;
-	position: absolute;
 	width: 210px;
 	height: 56px;
 	cursor: pointer;
@@ -82,13 +81,15 @@ p {
 }
 
 .button:hover {
-	width: 180px;
+	background-color: #3a424a;
 	transition: 1s ease;
 }
 
 .button h6 {
-	margin-top: 20px;
-	margin-left: 12px;
+	display: flex;
+	justify-content: center;
+	margin: 20px auto;
+
 }
 
 img {
