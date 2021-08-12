@@ -577,7 +577,6 @@ text-align: left;
 
 
 }
-}
 
 
 
@@ -959,7 +958,6 @@ textarea {
 
 
 .casevideo{
-	max-width: ;
 	display: flex;
 	margin: 100px auto;
 }
@@ -1204,7 +1202,8 @@ margin-bottom: 50px;
 		margin-top: 0px;
 		margin-bottom: 90px;
 	}
-	{
+
+
 		/* margin-top: -70px; */
 	}
 
