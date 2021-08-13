@@ -519,7 +519,7 @@ text-align: left;
 
 
 .clients1{
-		display: flex;
+		/* display: flex; */
 	
 		max-width: 100%;
 		margin: 60px auto;
@@ -641,8 +641,8 @@ footer p {
 
 
 #footersocial {
-	/* display: inline-block;
-	float: right; */
+	display: inline-block;
+	float: right;
 	margin-right: -20px;
 	margin-top: -10px;
 
@@ -1114,6 +1114,11 @@ margin-bottom: 50px;
 		flex-direction: column;
 	}
 
+
+		.projectdetails h4 {
+		font-size: 24px;
+	}
+
 	.secondarybutton {
 		width: 250px;
 		margin: 40px auto;
@@ -1132,7 +1137,7 @@ margin-bottom: 50px;
 	}
 
 
-	
+
 
 	#projects .c50 {
 		padding: 0px;
