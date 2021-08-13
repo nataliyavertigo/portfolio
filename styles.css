@@ -641,8 +641,8 @@ footer p {
 
 
 #footersocial {
-	display: inline-block;
-	float: right;
+	/* display: inline-block;
+	float: right; */
 	margin-right: -20px;
 	margin-top: -10px;
 
@@ -847,9 +847,7 @@ textarea {
 	flex-wrap: wrap;
 }
 
-.casehero{
-	/* padding: 200px 0px 0px 120px; */
-}
+
 
 .casehero h1{
 	position: absolute;
