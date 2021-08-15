@@ -428,6 +428,20 @@ nav li {
 	margin-bottom: 240px;
 }
 
+
+
+/* #buttonwork{
+	display: flex;
+	margin-top: -120px;
+	margin-bottom: 50px;
+} */
+
+
+
+
+
+
+
 /*PROCESS*/
 
 
@@ -552,7 +566,6 @@ text-align: left;
 
 
 
-
 /*CONTACT HP*/
 
 
@@ -611,6 +624,7 @@ flex-wrap: wrap; */
 width: 90%;
 	margin-top: 60px;
 }
+
 
 
 footer .line{
@@ -713,7 +727,6 @@ footer p {
 .label {
 	background-color: transparent;
 	border: none;
-
 }
 
 
@@ -723,9 +736,9 @@ footer p {
 	color: #EBE3DF;
 	margin-top: 30px;
 	margin-bottom: 0px;
-
 	max-width: 400px;
 }
+
 
 .input {
 	text-align: left;
@@ -798,6 +811,8 @@ textarea {
 /*CASESTUDY*/
 
 
+
+
 .blurb{
 	margin-top: 200px;
 	margin-bottom: 60px;
@@ -858,6 +873,15 @@ textarea {
 
 }
 
+
+
+.casemargintop{
+	margin-top: 100px;
+
+}
+
+
+
 #caseintroimg{
 	max-width: 40vw;
 	z-index: 1;
@@ -869,7 +893,7 @@ textarea {
 #casedetails{
 	
 	margin-left: 140px;
-	margin-top: 360px;
+	margin-top: 300px;
 	max-width: 300px;
 
 }
@@ -924,22 +948,23 @@ textarea {
 	margin: 100px auto;
 }
 
+.casevideo video{
+	width:1120px;
+	height: 680px;
+}
+
+
 .caseimg{
 	margin: 120px auto;
 }
 
 
 .casebody .caseimg img{
-	max-width: 1200px;
+	max-width: 1120px;
 
 
 }
 
-#buttonwork{
-	display: flex;
-	margin-top: -220px;
-	margin-bottom: 50px;
-}
 
 
 
@@ -1324,8 +1349,8 @@ margin-bottom: 50px;
 	
 	
 
-#footerinfo {
-	padding-bottom: 40px;
+.footerinfo {
+	margin: 30px;
 
 
 }
@@ -1333,8 +1358,33 @@ margin-bottom: 50px;
 
 
 footer .line{
-	margin: 30px 16px; 
+	margin: 30px 0px; 
 }
+
+
+
+#footersocial {
+	margin-right: 0px;
+	margin-top: -18px;
+}
+
+
+#footersocial ul{
+	padding-inline-start: 0px;
+	margin-left: -20px;
+}
+
+footer p{
+	 padding-top: 0px;
+	 max-width: 250px;
+	 margin: 0px 0px;
+
+}
+
+
+
+
+
 
 /* 
 footer p {
@@ -1425,7 +1475,7 @@ textarea {
 	
 	
 	
-/*CASESTUDY MOBILE*/
+/*CASESTUDY MOBILE???? MAYBE THUMBNAIL OR OLD*/
 
 
 .blurb{
@@ -1467,6 +1517,141 @@ textarea {
 .fullwidthdisp{
 	margin: 0px 10px;
 }
+
+
+
+
+/*CASESTUDY NEW MOBILE */
+
+
+
+
+.caseintro {
+    display: flex;
+	flex-wrap: wrap;
+	max-width: 375px;
+}
+
+
+
+.casehero h1{
+	position: absolute;
+	margin-top: 120px;
+	font-size: 46px;
+	z-index: 2;
+	margin-left: 60px;
+
+}
+
+#caseintroimg{
+	max-width: 95vw;
+	z-index: 1;
+	position:relative;
+	margin-left: 60px;
+	margin-top: 210px;
+}
+
+#casedetails{
+	
+	margin-left: 60px;
+	margin-top: 70px;
+	max-width: 280px;
+
+}
+
+#casedetails ul{
+	padding-inline-start: 0px;
+}
+
+#casedetails h6{
+	opacity: 0.5;
+	text-align: left;
+}
+
+#casedetails p{
+	font-size: 16px;
+	text-align: left;
+	font-weight: 400;
+	margin-bottom: 5px;
+
+}
+
+
+.casesubdetail{
+	margin-bottom: 50px;
+}
+
+
+.casebody{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 375px;
+}
+
+
+.casebody img{
+	max-width: 100%;
+	margin-top: 30px;
+}
+
+
+
+.caseblocknoshow{
+display: none;
+
+}
+
+
+
+.casemargintop{
+	margin-top: -20px;
+
+}
+
+.casetext{
+	margin: 30px auto;
+}
+
+.casetext h4{
+	
+	max-width: 300px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.casevideo{
+	display: flex;
+	margin: 60px auto;
+}
+
+
+.casevideo video{
+	width: 335px;
+	height: 205.5px;
+}
+
+.caseimg{
+	margin: 60px auto;
+}
+
+
+.casebody .caseimg img{
+	max-width: 335px;
+
+
+}
+
+/* #buttonwork{
+	display: flex;
+	margin-top: -220px;
+	margin-bottom: 50px;
+} */
+
+
+
+
+
 
 	
 }
