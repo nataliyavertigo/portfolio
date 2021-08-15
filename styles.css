@@ -860,6 +860,7 @@ textarea {
 .caseintro {
     display: flex;
 	flex-wrap: wrap;
+	margin: 0px auto;
 }
 
 
@@ -942,6 +943,8 @@ textarea {
 	text-align: center;
 }
 
+	
+
 
 .casevideo{
 	display: flex;
@@ -964,6 +967,47 @@ textarea {
 
 
 }
+
+
+
+
+/*DESKTOP 1920*/
+
+
+
+@media (min-width: 1920px) {
+
+	.casehero h1 {
+		font-size: 90px;
+
+		margin-left: 60px;
+	}
+
+	#casedetails {
+		margin-left: 140px;
+		margin-top: 440px;
+	}
+
+
+
+	.casevideo video {
+		width: 1480px;
+		height: 800px;
+	}
+
+
+	.casebody .caseimg img {
+		max-width: 1480px;
+	}
+
+
+
+
+
+
+}
+
+
 
 
 
@@ -1595,11 +1639,11 @@ textarea {
 }
 
 
-
+/* 
 .caseblocknoshow{
 display: none;
 
-}
+} */
 
 
 
@@ -1613,7 +1657,6 @@ display: none;
 }
 
 .casetext h4{
-	
 	max-width: 300px;
 	margin-top: 50px;
 	text-align: center;
