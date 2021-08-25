@@ -557,7 +557,7 @@ text-align: left;
 }
 
 .clients .c25 {
-	padding: 10px 20px;
+	padding: 20px 40px;
 }
 
 .clients img {
@@ -708,7 +708,7 @@ footer p {
 
 #contactform .button {
 	background-color: #EBE3DF;
-	
+	margin-top: 20px;
 
 }
 
@@ -719,9 +719,10 @@ footer p {
 }
 
 #contactform .button:hover {
-	background-color: #ccb9af;
-
+	background-color: #dac8c0;
 }
+
+
 
 
 .label {
