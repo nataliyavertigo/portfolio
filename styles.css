@@ -655,7 +655,7 @@ footer p {
 
 
 #footersocial {
-	
+
 	display: inline-block;
 	float: right;
 	margin-right: -20px;
@@ -723,24 +723,7 @@ footer p {
 }
 
 
-/* #contactform .button {
-	background-color: #2F3439;
-	background-position: left;
-	border: none;
-	margin-top: 40px;
-	position: absolute;
-	width: 60px;
-	height: 56px;
-	cursor: pointer;
-	white-space: nowrap;
-	transition: 1s ease;
 
-} */
-/* 
-#contactform .button:hover {
-	width: 160px;
-	transition: 1s ease;
-} */
 
 .label {
 	background-color: transparent;
