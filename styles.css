@@ -557,7 +557,7 @@ text-align: left;
 }
 
 .clients .c25 {
-	padding: 10px 20px;
+	padding: 20px 40px;
 }
 
 .clients img {
@@ -685,7 +685,7 @@ footer p {
 
 
 #contacttext {
-	padding: 300px 100px 0px 200px;
+	padding: 200px 100px 0px 200px;
 }
 
 #contacttext h6 {
@@ -701,11 +701,28 @@ footer p {
 
 
 #contactform {
-	padding: 320px 0px 0px 60px;
+	padding: 220px 0px 0px 60px;
 }
 
 
 #contactform .button {
+	background-color: #EBE3DF;
+	margin-top: 20px;
+
+}
+
+#contactform .button h6{
+	color: #2F3439;
+	font-weight: 600;
+
+}
+
+#contactform .button:hover {
+	background-color: #dac8c0;
+}
+
+
+/* #contactform .button {
 	background-color: #2F3439;
 	background-position: left;
 	border: none;
@@ -717,12 +734,12 @@ footer p {
 	white-space: nowrap;
 	transition: 1s ease;
 
-}
-
+} */
+/* 
 #contactform .button:hover {
 	width: 160px;
 	transition: 1s ease;
-}
+} */
 
 .label {
 	background-color: transparent;
