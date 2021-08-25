@@ -655,7 +655,7 @@ footer p {
 
 
 #footersocial {
-	
+
 	display: inline-block;
 	float: right;
 	margin-right: -20px;
@@ -686,7 +686,7 @@ footer p {
 
 
 #contacttext {
-	padding: 300px 100px 0px 200px;
+	padding: 200px 100px 0px 200px;
 }
 
 #contacttext h6 {
@@ -702,13 +702,15 @@ footer p {
 
 
 #contactform {
-	padding: 320px 0px 0px 60px;
+	padding: 220px 0px 0px 60px;
 }
 
 
 #contactform .button {
-	background-color: #2F3439;
-	background-position: left;
+	background-color: #EBE3DF;
+	
+	
+	/* background-position: left;
 	border: none;
 	margin-top: 40px;
 	position: absolute;
@@ -716,14 +718,28 @@ footer p {
 	height: 56px;
 	cursor: pointer;
 	white-space: nowrap;
-	transition: 1s ease;
+	transition: 1s ease; */
+
+}
+
+#contactform .button h6{
+	color: #2F3439;
+	font-weight: 600;
 
 }
 
 #contactform .button:hover {
+	background-color: #ccb9af;
+
+}
+
+
+
+/* 
+#contactform .button:hover {
 	width: 160px;
 	transition: 1s ease;
-}
+} */
 
 .label {
 	background-color: transparent;
