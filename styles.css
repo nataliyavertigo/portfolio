@@ -709,16 +709,6 @@ footer p {
 #contactform .button {
 	background-color: #EBE3DF;
 	
-	
-	/* background-position: left;
-	border: none;
-	margin-top: 40px;
-	position: absolute;
-	width: 60px;
-	height: 56px;
-	cursor: pointer;
-	white-space: nowrap;
-	transition: 1s ease; */
 
 }
 
@@ -734,6 +724,15 @@ footer p {
 }
 
 
+	/* background-position: left;
+	border: none;
+	margin-top: 40px;
+	position: absolute;
+	width: 60px;
+	height: 56px;
+	cursor: pointer;
+	white-space: nowrap;
+	transition: 1s ease; */
 
 /* 
 #contactform .button:hover {
