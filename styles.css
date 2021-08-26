@@ -1081,7 +1081,7 @@ textarea {
 /*MOBILE 375*/
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:440px) {
 	
 	
 	h2{
@@ -1251,6 +1251,7 @@ margin-bottom: 50px;
 
 	#buttonwork{
 		margin-top: -60px;
+		margin-bottom: 0px;
 	}
 
 
@@ -1429,48 +1430,25 @@ footer p{
 
 
 
+/* CONTACT PAGE MOBILE */
 
 
-/* 
-footer p {
-	position: absolute;
-	margin: 0px 16px;
-
-	font-family: Mulish;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 8px;
-	line-height: 144.39%;
-
-	letter-spacing: 0.265em;
-	text-transform: uppercase;
-
-} */
-
-/* 
+#contacttext{
+	padding: 120px 40px 0px 40px;
+	max-width: 400px;
+	
+}
 
 
-#footersocial {
-	display: inline-block;
-	float: right;
-	margin: 0px 16px;
 
-    }
-    
-    #contacttext{
-        padding: 120px 40px 0px 40px;
-            max-width: 400px;
-        
-    }
-    
-     #contactform{
-         max-width: 400px;
-        padding: 40px 40px 0px 40px
-        
-    }
-    
-    
-    .label {
+#contactform{
+	max-width: 400px;
+   padding: 40px 40px 0px 40px
+   
+}
+
+
+.label {
 	background-color: transparent;
 	border: none;
 
@@ -1481,21 +1459,18 @@ footer p {
 .label h6 {
 
 	margin-top: 20px;
-
-
 	max-width: 300px;
 }
 
+
 .input {
-
-
 
 	width: 300px;
 
 
 }
 
- */
+
 
 
 
@@ -1518,6 +1493,15 @@ textarea {
 }
 	
 	
+
+#precontact {
+	margin: 0px 0px 80px 0px;
+}
+
+
+
+
+
 	
 	
 /*CASESTUDY MOBILE???? MAYBE THUMBNAIL OR OLD*/
