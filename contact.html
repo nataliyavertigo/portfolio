@@ -8,8 +8,6 @@
 
 	<title>Contact Verk Studio | Project Opportunities</title>
 
-	<script src="1b-ajax-notify.js"></script>
-
 
 </head>
 
@@ -38,41 +36,29 @@
 				</div>
 			</div>
 			<div class="c50">
-				<div id="contactform">
-				<form name="contact" action="success.html" method="GET" netlify-honeypot="bot-field" data-netlify="true">
+			
+					<form name="contact" method="POST" data-netlify="true">
+						<p>
+						  <label>Your Name: <input type="text" name="name" /></label>   
+						</p>
+						<p>
+						  <label>Your Email: <input type="email" name="email" /></label>
+						</p>
+						<p>
+						  <label>Your Role: <select name="role[]" multiple>
+							<option value="leader">Leader</option>
+							<option value="follower">Follower</option>
+						  </select></label>
+						</p>
+						<p>
+						  <label>Message: <textarea name="message"></textarea></label>
+						</p>
+						<p>
+						  <button type="submit">Send</button>
+						</p>
+					  </form>
 
-					<div class="hidden">
-						<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-					</div>
-
-					
-					<label class="label" for="fname"><h6>First name</h6></label><br>
-					
-					<input class="input" type="text" id="fname" name="fname"><br>
-					
-					<label class="label" for="email"><h6>Email</h6></label><br>
-					
-					<input class="input" type="text" id="fname" name="email"><br>
-					
-					<label class="label" for="desc"><h6>Project Description</h6></label><br>
-					
-					<textarea id="desc" name="desc"></textarea><br>
-
-					<!-- <div data-netlify-recaptcha="true"></div> -->
-
-
-					<H6><input type="submit" class="button" name="submit +"></H6>
-
-
-<!-- 
-					<button class="button" type="submit">
-
-						submit +</H6>
-
-					</button> -->
-					</form>
-
-				</div>
+	
 			</div>
 		</div>
 
