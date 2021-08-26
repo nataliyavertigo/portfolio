@@ -81,6 +81,12 @@ p {
 }
 
 
+.hidden{
+	display: none;
+}
+
+
+
 .button {
 	background-color: #2F3439;
 	background-position: left;
