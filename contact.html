@@ -35,12 +35,28 @@
 					<h2>Let’s create a website your user will love 🙌️</h2>
 				</div>
 			</div>
-			<form name="contact" action="POST" data-netlify="true">
+
+
+			<form 
+				name="contact" 
+				method="POST" 
+				onSubmit="submit" 
+				data-netlify="true" 
+				action="success.html"
+				data-netlify-honeypot="bot-field">
+
+
+				<input type="hidden" name="form name" value="contact"/>
+
+
+				<div hidden><input name="bot-field" /></div>
 
 
 				<label class="label" for="fname"><h6>First name</h6></label><br>
 					
 					<input class="input" type="text" id="fname" name="fname"><br>
+
+					
 
 
 				<label class="label" for="email"><h6>Email</h6></label><br>
@@ -53,8 +69,9 @@
 					<textarea id="desc" name="desc"></textarea><br>
 
 
+					<button type="submit"><h6>submit +</h6></button>
 
-				<H6><input type="submit" class="button" name="submit +"/></H6>
+
 
 
 
@@ -64,9 +81,8 @@
 
 				</div>
 			</div>
-		</div>
+	
 
-	</div>
 
 
 		<footer>
@@ -74,7 +90,7 @@
 			<div class="line">
 				</div>
 		
-				<p>COPYRIGHT © 2021 Nataliya Vertigo</p>
+				<p>COPYRIGHT © 2021 Nataliya Verk</p>
 						<div id="footersocial">
 							<ul>
 							
