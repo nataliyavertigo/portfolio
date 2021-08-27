@@ -718,11 +718,7 @@ footer p {
 
 }
 
-#contactform .button h6{
-	color: #2F3439;
-	font-weight: 600;
 
-}
 
 #contactform .button:hover {
 	background-color: #dac8c0;
@@ -741,14 +737,40 @@ label {
 label h6 {
 	text-align: left;
 	color: #EBE3DF;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 0px;
 	max-width: 400px;
 }
 
 
-input {
-	text-align: left;
+
+form{
+	margin-top: 180px;
+	margin-left: 60px;
+}
+
+
+form .button{
+	background-color: #EBE3DF;
+	margin-top: 20px;
+	border: none;
+	margin-top: 40px;
+	width: 210px;
+	height: 56px;
+	cursor: pointer;
+	white-space: nowrap;
+	transition: 1s ease;
+}
+
+
+form .button:hover {
+	background-color: #dacac3;
+	transition: 1s ease;
+}
+
+input{
+
+
 
 	background-color: transparent;
 	border-bottom: 1px solid #EBE3DF;
@@ -759,11 +781,33 @@ input {
 	width: 400px;
 
 	cursor: pointer;
+
+
+
+
+
+
+	font-family:inherit;
+	font-family: 'Mulish', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 0.26em;
+	text-transform: uppercase;
+	color: #2F3439;
+
+  font-size: inherit;
+  display: flex;
+	justify-content: center;
+	padding:  10px 0px;
 }
 
 
+
 #fname {
+	letter-spacing: 0em;
 	font-family: 'Mulish'sans-serif;
+	text-transform: none;
 	font-size: 16px;
 	font-weight: 300;
 	text-align: left;
@@ -775,7 +819,7 @@ input {
 
 input p {
 	text-align: left;
-	color: #EBE3DF;
+	color: #68361d;
 	margin: 0px 0px 0px 0px;
 	max-width: 400px;
 
