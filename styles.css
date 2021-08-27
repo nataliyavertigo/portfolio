@@ -1646,10 +1646,20 @@ textarea {
 }
 
 
-.casebody img{
+
+.caseimgfullwid img{
 	max-width: 100vw;
 	margin-top: 30px;
 	height: auto;
+
+}
+
+
+.caseimg img{
+	max-width: 335px;
+	height: auto;
+
+
 }
 
 
