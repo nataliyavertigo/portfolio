@@ -731,14 +731,14 @@ footer p {
 
 
 
-.label {
+label {
 	background-color: transparent;
 	border: none;
 }
 
 
 
-.label h6 {
+label h6 {
 	text-align: left;
 	color: #EBE3DF;
 	margin-top: 30px;
@@ -747,7 +747,7 @@ footer p {
 }
 
 
-.input {
+input {
 	text-align: left;
 
 	background-color: transparent;
@@ -773,7 +773,7 @@ footer p {
 }
 
 
-.input p {
+input p {
 	text-align: left;
 	color: #EBE3DF;
 	margin: 0px 0px 0px 0px;
