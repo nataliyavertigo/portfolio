@@ -750,6 +750,7 @@ form{
 }
 
 
+
 form .button{
 	background-color: #EBE3DF;
 	margin-top: 20px;
@@ -770,32 +771,18 @@ form .button:hover {
 
 input{
 
-
-
+	width: 400px;
 	background-color: transparent;
 	border-bottom: 1px solid #EBE3DF;
 	padding-top: 0px;
 	padding-bottom: 10px;
 	margin-bottom: 40px;
-
-	width: 400px;
-
 	cursor: pointer;
-
-
-
-
-
-
-	font-family:inherit;
 	font-family: 'Mulish', sans-serif;
-	font-size: 12px;
 	font-weight: 600;
-	text-align: center;
 	letter-spacing: 0.26em;
 	text-transform: uppercase;
 	color: #2F3439;
-
   font-size: inherit;
   display: flex;
 	justify-content: center;
@@ -1513,7 +1500,17 @@ footer p{
 }
 
 
-.input {
+
+
+form{
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+
+
+
+input {
 
 	width: 300px;
 
