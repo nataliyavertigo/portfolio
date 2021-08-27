@@ -1593,24 +1593,29 @@ textarea {
 
 .casehero h1{
 	position: absolute;
-	margin-top: 120px;
+	margin-top: 350px;
 	font-size: 46px;
 	z-index: 2;
-	margin-left: 60px;
+	margin-left: 40px;
 
 }
+
+
 
 #caseintroimg{
-	max-width: 95vw;
+	max-width: 70vw;
 	z-index: 1;
 	position:relative;
-	margin-left: 60px;
-	margin-top: 210px;
+	margin-left: 30vw;
+	margin-top: 110px;
 }
+
+
+
 
 #casedetails{
 	
-	margin-left: 60px;
+	margin-left: 40px;
 	margin-top: 70px;
 	max-width: 280px;
 
