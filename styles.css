@@ -1648,7 +1648,7 @@ textarea {
 .casebody{
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 375px;
+	max-width: 440px;
 }
 
 
