@@ -23,8 +23,10 @@ h2 {
 
 	font-family: 'Marcellus', serif;
 	font-size: 40px;
+	max-width: 900px;
 	font-weight: normal;
 	text-align: center;
+	margin-bottom: 24px;
 	color: #EBE3DF;
 }
 
@@ -72,8 +74,9 @@ p {
 	text-align: center;
 	color: #EBE3DF;
 	margin-bottom: 24px;
-	
-	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
 	line-height: 1.8em;
 	font-weight: 300;
 	/* margin-bottom: 30px; */
@@ -933,7 +936,7 @@ textarea {
 	
 	margin-left: 120px;
 	margin-top: 200px;
-	max-width: 320px;
+	max-width: 400px;
 
 }
 
@@ -963,6 +966,7 @@ textarea {
 .casebody{
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
 
@@ -970,14 +974,30 @@ textarea {
 	max-width: 100%;
 }
 
+
+
 .casetext{
 	margin: 120px auto;
+	max-width: 90vw;
 }
+
+.casetextmargin{
+	margin: 120px auto 30px;
+	max-width: 90vw;
+}
+
+
+.casetextmargin h4{
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+
 
 .casetext h4{
 	
 	max-width: 900px;
-	margin-top: 70px;
+	margin-top: 30px;
 	text-align: center;
 }
 
@@ -1007,6 +1027,54 @@ textarea {
 }
 
 
+.caseimg80 {
+	width: 80%;
+	margin: 0 auto 30px;
+}
+
+.caseimg80 img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+.conversion-section {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	max-width: 80vw;
+	margin: auto;
+}
+
+.conversion-visual,
+.conversion-content {
+	width: 50%;
+}
+
+.conversion-content h2,
+.conversion-copy,
+.conversion-copy p {
+	text-align: left;
+}
+
+.conversion-visual img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+@media (max-width: 768px) {
+	.conversion-section {
+		flex-direction: column;
+	}
+
+	.conversion-visual,
+	.conversion-content {
+		width: 100%;
+	}
+}
 
 
 /*DESKTOP 1920*/
@@ -1660,6 +1728,12 @@ textarea {
 
 }
 
+.caseimgwide img{
+	max-width: 80vw;
+	margin-top:0px;
+	height: auto;
+
+}
 
 .caseimg img{
 	max-width: 335px;
