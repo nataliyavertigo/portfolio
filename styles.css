@@ -912,6 +912,7 @@ textarea {
 	font-size: 70px;
 	z-index: 2;
 	margin-left: 110px;
+	text-align: left;
 
 }
 
@@ -954,8 +955,29 @@ textarea {
 	text-align: left;
 	font-weight: 400;
 	margin-bottom: 5px;
+	line-height: 1.4em;
 
 }
+
+
+.casesubdetail .case-detail-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.casesubdetail .case-detail-list li {
+	list-style: none;
+}
+
+.casesubdetail .case-detail-list p {
+	text-align: left;
+}
+
+.casesubdetail .bullet {
+	display: inline-block;
+	margin-right: 12px;
+}
+
 
 
 .casesubdetail{
@@ -1075,6 +1097,78 @@ textarea {
 		width: 100%;
 	}
 }
+
+.overview-ask-section {
+	display: flex;
+	gap: 6vw;
+	width: 80%;
+	margin: 120px auto;
+	align-items: flex-start;
+}
+
+.overview-ask-column {
+	width: 50%;
+	text-align: left;
+}
+
+.overview-ask-column h2 {
+	text-align: left;
+}
+
+.overview-ask-column p {
+	text-align: left;
+	max-width: none;
+	margin-bottom: 6px;
+}
+
+.overview-ask-column ul {
+	text-align: left;
+	margin-top: 16px;
+	padding-left: 16px;
+}
+
+.overview-ask-column ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.overview-ask-column li {
+	list-style: none;
+}
+
+.bullet {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+	.overview-ask-section {
+		flex-direction: column;
+		gap: 60px;
+	}
+
+	.overview-ask-column {
+		width: 100%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*DESKTOP 1920*/
