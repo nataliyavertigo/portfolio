@@ -1161,6 +1161,7 @@ textarea {
 
 
 
+
 /* Mobile */
 @media (max-width: 768px) {
 
@@ -1172,6 +1173,13 @@ textarea {
 	.overview-ask-column {
 		width: 100%;
 	}
+
+
+	.casevideo.no-margin video {
+	height: 200px;
+}
+
+
 
 }
 
