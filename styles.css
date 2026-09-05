@@ -1036,6 +1036,11 @@ textarea {
 	height: 680px;
 }
 
+.videoshort video{
+	width:1120px;
+	height: 540px;
+}
+
 
 .caseimg{
 	margin: 120px auto;
@@ -1142,6 +1147,14 @@ textarea {
 }
 
 
+.casevideo.casevideo-compact {
+	margin: -40px auto;
+}
+
+
+
+
+
 
 /* Mobile */
 @media (max-width: 768px) {
@@ -1156,12 +1169,6 @@ textarea {
 	}
 
 }
-
-
-
-
-
-
 
 
 
