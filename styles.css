@@ -1151,8 +1151,13 @@ textarea {
 	margin: -40px auto;
 }
 
+.casevideo.no-margin {
+	margin: 0 auto;
+}
 
-
+.casevideo.no-margin video {
+	height: 540px;
+}
 
 
 
